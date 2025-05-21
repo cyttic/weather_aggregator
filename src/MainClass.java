@@ -1,6 +1,10 @@
+import view.MainFrame;
+
 public class MainClass{
 	public static void main(String []args)
 	{
-		System.out.println("hello weather aggregator");
+		MainFrame frame = new MainFrame("Weather aggregator B7");
+		frame.setSize(500,300);
+		frame.setVisible(true);
 	}
 }
